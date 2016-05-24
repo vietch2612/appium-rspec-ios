@@ -3,7 +3,6 @@ require_relative "support/pages/welcome"
 
 describe "Welcome screen test" do
 
-  # Invalid email format
   it "can be check welcome screen is correct" do
     Appium.promote_appium_methods self.class
 
