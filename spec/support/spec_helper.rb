@@ -3,7 +3,7 @@ require "appium_lib"
 require "rspec"
 require "sauce_whisk"
 
-require_relative "sign_in_helper"
+require_relative "login_helper"
 
 RSpec.configure do | config |
 
