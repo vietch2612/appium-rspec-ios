@@ -26,4 +26,11 @@ describe "Sign in test" do
     connect_screen.alert_is_include('check the username existed and password correct')
   end
 
+  # Sign in successfull
+  it "can be check login successfull" do
+    sign_in_as 'emailfortesting@gmail.com','123456'
+    sleep(5)
+    expect(home_screen.is_home_screen).to be(true)
+  end
+
 end
